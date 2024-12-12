@@ -1,0 +1,98 @@
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(190, 0, 0) !important ;
+  letter-spacing: 0.5px;
+}
+
+body {
+  background-color: #929892;
+  min-height: 101%;
+}
+
+#header-text {
+  --bs-emphasis-color: #e5e9e2;
+}
+
+a {
+  text-decoration: none;
+  color: #f0f4ee;
+}
+
+.page-link-text {
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.first-col {
+  border-right: #6c9d6c solid 2px;
+}
+
+.text-red {
+  color: red !important;
+}
+
+.reg-div {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: #a1a69f;
+}
+
+#reg-btn:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.mytable {
+  --bs-table-bg: #929892;
+  border-color: black;
+}
+
+.icon-link > .bi {
+  width: 1.3em !important;
+  height: 1.3em !important;
+  --bs-icon-link-transform: translate3d(0, -0.185rem, 0);
+  font-size: larger;
+}
